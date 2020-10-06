@@ -1,0 +1,46 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+h1{
+  text-align: center;
+}
+
+.welcome {
+  width: 70%;
+  text-align: center;
+  font-size: 24px;
+  padding: 40px;
+  margin: 55px auto 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+body{
+  background-color: bisque;
+}
+
+.question-and-score {
+  font-size: 20px;
+  font-weight: 600px;
+  color:black;
+  text-align: center;
+  list-style: none;
+}
+
+fieldset {
+  width: 60%;
+  padding: 40px;
+  margin: 55px auto 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 18px;
+}
